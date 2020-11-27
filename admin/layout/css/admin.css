@@ -1,0 +1,193 @@
+
+/*start main rules*/
+*:active,*:focus{
+outline: none;
+}
+body{
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+.astric{
+    right: 20px;
+    position: absolute;
+    top: 0px;
+    font-size: 30px;
+    color: #ec5451;
+}
+.rltv{
+    position: relative;
+}
+hidden{
+    display: none;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+}
+.panel-primary {
+    border-color: #4cae4c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #dff0d8;
+}
+@media (min-width: 768px)
+{
+.navbar {
+     border-radius: 0px; 
+}
+}
+
+.msg{
+    top: 2px;
+    right: 0px;
+    position: fixed;
+    height: 100px;
+    background-color:transparent;
+    color: #fff;
+    border-radius: 5px;
+    z-index: 3;
+    /* box-shadow: 4px 0px 4px 2px #01E; */
+}
+/*end main rules*/
+
+/*start login from*/
+.bg-index{
+    position: absolute;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("../img/Bg.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top: 0px;
+    left:0px;
+    bottom: 0px;
+    right: 0px;
+}
+.login
+{
+width: 320px;
+margin: 200px auto auto;
+display: block;
+background-color: #eaeaea;
+padding: 20px;
+border-radius: 7px;
+}
+.login h3{
+    color: #6e6b6b;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login  .form-control
+{
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 25px;
+}
+.login input
+{
+    margin-bottom: 10px;
+}
+
+.login .btn{
+    background-color: #4cae4c;
+}
+/*end login from*/
+
+/*---------------------------------start navbar---------------------------*/
+.navbar-default .navbar-brand{
+    font-size: 1em;
+    color:#fff;
+    border-radius: 0px;
+}
+.navbar{
+    border: none;
+}
+.navbar-default {
+    background-color: #5cb85c;
+    border-color:#5cb85c;
+    border-radius: none;
+}
+@media (min-width: 768px)
+{
+    .navbar {
+    border-radius: none !important;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: rgb(255, 255, 255);}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #5cb85c;
+        background-color: #f5f5f5;
+    }
+}
+.navbar-default .navbar-nav>li>a,.dropdown-menu>li>a,.navbar-default .navbar-toggle,.navbar-default .navbar-toggle .icon-bar  {
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-brand:hover,.dropdown-menu>li>a:hover,.navbar-default .navbar-nav>.open>a:focus
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+    background-color: #f5f5f5;
+    color: #5cb85c;
+    border-radius: 3px;
+}
+
+.navbar-nav>li>.dropdown-menu{
+    background-color:#5cb85c;
+    color: #fff;
+}
+
+/*--------------------------------------------end navbar-------------------------------*/
+
+/*------------------------------------------start memberpage-----------------------------*/
+.myform{
+    margin: 100px auto;
+}
+h1{
+    font-size: 30px;
+    color: #666666 !important;
+}
+/*end members page*/
+/*start edit client*/
+
+table thead{
+    color: #ffffff;
+    background-color: #5cb85c;
+}
+/*---------------------------------------end edit client------------------------------*/
+/*---------------------------------------start product-------------------------------*/
+ul.breadcrumb {
+
+    background-color: #5cb85c;
+
+}
+ul.breadcrumb >li >a{
+    color: #f3f3f3;
+}
+td .dropdown-menu{
+    background-color: #5cb85c;
+    color: #fff;
+}
+/* .sl{
+    /* background-color: #337ab7;
+    border-radius: 3px;
+    color: #fff; 
+} */
+.sl label{
+    margin-top: 6px;
+}
+/*---------------------edit form---------------------------*/
+.edit-fro .astric{
+    bottom: 0px;
+}
+/*----------------------------------------end product---------------------------------*/
+/*---------------------------------------start command------------------------------*/
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #dff0d8;
+}
+/*---------------------------------------start command------------------------------*/
